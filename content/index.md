@@ -1,5 +1,6 @@
 ---
 title: '{% data variables.product.github %}{% ifversion fpt or ghec%}.com{% endif %} Help Documentation'
+
 featuredLinks:
   gettingStarted:
     - /get-started/getting-started-with-git/set-up-git
@@ -12,6 +13,7 @@ featuredLinks:
     - /copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot
     - /get-started/getting-started-with-git/managing-remote-repositories
     - /pages
+
 redirect_from:
   - /github
   - /articles
@@ -44,10 +46,12 @@ redirect_from:
   - /github/enforcing-best-practices-with-github-policies/syntax
   - /site-policy/site-policy-deprecated/github-ae-data-protection-agreement
   - /site-policy/site-policy-deprecated/github-ae-product-specific-terms
+
 versions:
   fpt: '*'
   ghes: '*'
   ghec: '*'
+
 children:
   - search
   - get-started
@@ -83,8 +87,9 @@ children:
   - video-transcripts
   - contributing
   - github-models
+
 childGroups:
-  - name: Get started
+  - name: Get Started
     octicon: RocketIcon
     children:
       - get-started
@@ -93,13 +98,15 @@ childGroups:
       - authentication
       - billing
       - site-policy
-  - name: Collaborative coding
+
+  - name: Collaborative Coding
     octicon: CommentDiscussionIcon
     children:
       - codespaces
       - repositories
       - pull-requests
       - discussions
+
   - name: GitHub Copilot
     octicon: CopilotIcon
     children:
@@ -109,12 +116,14 @@ childGroups:
       - copilot/example-prompts-for-github-copilot-chat
       - copilot/using-github-copilot/asking-github-copilot-questions-in-github
       - copilot/using-github-copilot/guides-on-using-github-copilot/refactoring-code-with-github-copilot
+
   - name: CI/CD and DevOps
     octicon: GearIcon
     children:
       - actions
       - packages
       - pages
+
   - name: Security
     octicon: ShieldLockIcon
     children:
@@ -124,18 +133,21 @@ childGroups:
       - code-security/dependabot
       - code-security/code-scanning
       - code-security/secret-scanning
-  - name: Client apps
+
+  - name: Client Apps
     octicon: DeviceMobileIcon
     children:
       - github-cli
       - get-started/using-github/github-mobile
       - desktop
-  - name: Project management
+
+  - name: Project Management
     octicon: ProjectIcon
     children:
       - issues
       - issues/planning-and-tracking-with-projects
       - search-github
+
   - name: Enterprise and Teams
     octicon: OrganizationIcon
     children:
@@ -143,6 +155,7 @@ childGroups:
       - code-security/securing-your-organization
       - admin
       - gh-wa
+
   - name: Developers
     octicon: CodeSquareIcon
     children:
@@ -152,6 +165,7 @@ childGroups:
       - webhooks
       - copilot/building-copilot-extensions
       - github-models
+
   - name: Community
     octicon: GlobeIcon
     children:
@@ -160,31 +174,37 @@ childGroups:
       - education
       - support
       - contributing
-  - name: More docs
+
+  - name: More Docs
     octicon: PencilIcon
     children:
       - codeql
       - electron
       - npm
+
 externalProducts:
   electron:
     id: electron
     name: Electron
     href: 'https://electronjs.org/docs/latest'
     external: true
+
   codeql:
     id: codeql
-    name: CodeQL query writing
+    name: CodeQL Query Writing
     href: 'https://codeql.github.com/docs'
     external: true
+
   npm:
     id: npm
     name: npm
     href: 'https://docs.npmjs.com/'
     external: true
+
   gh-wa:
     id: gh-wa
     name: GitHub Well-Architected
     href: 'https://wellarchitected.github.com/'
     external: true
+
 ---
